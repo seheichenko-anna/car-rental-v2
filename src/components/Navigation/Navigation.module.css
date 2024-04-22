@@ -1,0 +1,26 @@
+.nav {
+    padding: 8px 20px;
+    background-color: var(--accent-color);
+    display: flex;
+    color: #fff;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+    font-size: 20px;
+}
+
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+.nav_wrapper {
+    display: flex;
+    gap: 12px;
+}
+
+.logo_wrapper {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}

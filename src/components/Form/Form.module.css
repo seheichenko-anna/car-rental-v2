@@ -1,0 +1,24 @@
+.form_wrapper {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.form {
+    display: flex;
+    gap: 18px;
+}
+
+.select {
+    scrollbar-width: thin;
+    scrollbar-color: rgb(18, 20, 23, 0.05) transparent;
+}
+
+.label {
+    font-weight: 500;
+    line-height: 1.28571;
+    color: #8a8a89;
+    display: flex;
+    flex-direction: column;
+    gap: 8px
+}

@@ -1,0 +1,32 @@
+.catalog_section {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 0 150px 0;
+}
+
+.cars_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 29px;
+    column-gap: 50px;
+    margin: 0 auto;
+    padding: 50px 0 100px 0;
+}
+
+.load_more {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    text-decoration: underline;
+    color: var(--accent-color);
+    background-color: transparent;
+    border: none;
+    transition: color 0.3s ease-in-out;
+
+    &:hover {
+        color: var(--hover-color);
+    }
+
+}

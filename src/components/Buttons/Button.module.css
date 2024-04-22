@@ -1,0 +1,14 @@
+.btn {
+    padding: 12px 50px;
+    border: transparent;
+    background-color: var(--accent-color);
+    color: #fff;
+    font-family: inherit;
+    border-radius: 14px;
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+        background-color: var(--hover-color);
+    }
+
+}
